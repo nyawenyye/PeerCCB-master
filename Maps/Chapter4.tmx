@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="22" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="22" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" name="FE8 - Mountainous - 6c006d6e" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="Tilesets/FE8 - Mountainous - 6c006d6e.png" trans="ffffff" width="512" height="512"/>
+  <image source="../../WeeklyBlitz/Maps/FE8/6c006d6e.png" trans="ffffff" width="512" height="512"/>
  </tileset>
- <layer name="Tile Layer 1" width="22" height="20">
+ <layer name="Main" width="22" height="20">
   <properties>
+   <property name="Anims1" value="5"/>
+   <property name="ChapterID" value="4"/>
    <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x16"/>
+   <property name="MapID" value="0x15"/>
+   <property name="ObjectType" value="0x6C"/>
+   <property name="PaletteID" value="0x6D"/>
+   <property name="TileConfig" value="0x6E"/>
   </properties>
   <data>
    <tile gid="616"/>
@@ -450,7 +457,7 @@
    <tile gid="260"/>
   </data>
  </layer>
- <layer name="Village 1 Down" width="22" height="20">
+ <layer name="Village 1 Down" width="22" height="20" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="0"/>
@@ -901,7 +908,7 @@
    <tile gid="0"/>
   </data>
  </layer>
- <layer name="Village 1 Saved" width="22" height="20">
+ <layer name="Village 1 Saved" width="22" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -1352,7 +1359,7 @@
    <tile gid="0"/>
   </data>
  </layer>
- <layer name="Village 2 Down" width="22" height="20">
+ <layer name="Village 2 Down" width="22" height="20" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="2"/>
@@ -1803,7 +1810,7 @@
    <tile gid="0"/>
   </data>
  </layer>
- <layer name="Village 2 Saved" width="22" height="20">
+ <layer name="Village 2 Saved" width="22" height="20" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>
